@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['kirmizi', 'sari', 'yesil']
+
+roboflow:
+  workspace: otomasyon
+  project: domates-z1onl
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/otomasyon/domates-z1onl/dataset/5
